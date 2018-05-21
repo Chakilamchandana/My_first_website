@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Chandana Chakilam</title>
+        <link rel="stylesheet" href="newcss.css" type="text/css">
+        <link rel="stylesheet" type="text/css" href="styleguide.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body class="bgcolor">
+        <img src="images/dog.jpg" alt="myphoto" width="1450" height="750">
+        <div id="container1" class="heading primaryColor primaryFont">
+            <i>Glad that you're here!</i><br>
+            <p class="ph">I'm Chandana Chakilam</p>
+            <p class="pd">Know more about me <a href="about.html" id="fir"><i>HERE</i></a></p>
+        </div>
+        <script>
+            var xhr = new XMLHttpRequest();
+            xhr.open('GET', "https://ipinfo.io/json", true);
+            xhr.send();
+            xhr.addEventListener("readystatechange",processRequest, false);
+            function processRequest(e)
+            {
+                if(xhr.readyState===4 && xhr.status===200){
+                    var res = JSON.parse(xhr.responseText);
+                    alert("You are in: "+res.city);
+                }
+            }
+        </script>
+    </body>
+</html>

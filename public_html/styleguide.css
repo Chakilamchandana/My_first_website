@@ -1,0 +1,41 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 18, 2018, 12:07:06 PM
+    Author     : Chandana.Chakilam
+*/
+.primaryColor{
+    color: bisque;
+}
+.primaryBackgroundColor{
+    background-color: bisque;
+}
+.secondaryColor{
+    color: black;
+}
+.textColor3{
+    color: crimson;
+}
+.bgcolor{
+    background-color: darkslategrey;
+}
+.primaryFont{
+    font-style: italic;
+    font-family: monospace;
+}
+.secondaryFont{
+    font-family: sans-serif;
+    font-style: italic;
+}
+.primaryFontSize{
+    font-size: 16px;
+}
+.secondaryFontSize{
+    font-size: 20px;
+}
+.heading{
+    font-size: 24px;
+}

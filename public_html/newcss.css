@@ -1,0 +1,195 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 30, 2018, 11:40:44 AM
+    Author     : Chandana.Chakilam
+*/
+body{
+    height: 100%;
+    width: 100%;
+}
+#container1{
+    position: absolute;
+    top: 35%;
+    left: 15%;
+    color: tan;
+}
+h1{
+    position: absolute;
+    left: 47%;
+}
+ #fir {
+    text-decoration: none;
+    color: rosybrown;
+}
+#bg{
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    background-repeat: repeat-y;
+}
+#topc{
+   position: absolute;
+   left: 0%;
+   top: 5%;
+   height: 35%;
+   width: 100%;
+}
+.bottomc{
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+}
+#middle{
+    position: absolute;
+    top: 70%;
+    left: 32%;   
+}
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 85%;
+    }
+th{
+    padding: 1%;
+    font-weight: bolder;
+}
+td{
+    padding: 2%;
+}
+#p2{
+    position: absolute;
+    top: 28%;
+    left: 4%;
+    font-weight: 100;
+}
+#p3{
+    position: absolute;
+    top: 48%;
+    left: 4%;
+    
+}
+.nextto{
+    position: absolute;
+    top: 25%;
+    left: 45%;
+}
+.cate{
+    float: left;
+    position: absolute;
+    top: 35%;
+    left: 0%;
+}
+.cate1{
+    float: left;
+    position:absolute;
+    top: 35%;
+    left: 0%;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+    float: left;
+    margin: 40px;
+}
+.cateright{
+    float: right;
+    position: absolute;
+    top: 35%;
+    right: 0%;
+}
+.cateright1{
+    float: right;
+    position: absolute;
+    top: 35%;
+    right: 5%;
+}
+.cont2 {
+    position: absolute;
+    top: 49%;
+    left: 15%;
+}
+#para1{
+    height: 40px;
+    width: 80%;
+    margin: 2px;
+    padding: 5px;
+}
+#quote{
+    position: absolute;
+    top: 20%;
+    left: 30%;
+}
+#para2{
+    width: 80%;
+    list-style-type: disc;
+    text-decoration: none;
+    margin-top: 55px;
+    padding: 5px;
+}
+#portfolio{
+    position: absolute;
+    top: 115%;
+    left: 15%;
+    width: 75%;
+}
+#skills{
+    position: absolute;
+    top: 170%;
+    left: 15%;
+    width: 75%;
+}
+#funfacts{
+    position: absolute;
+    top: 220%;
+    width: 75%;
+    left: 15%;
+    }
+#f1, #f2,#f3,#f4,#f5,#f6,#f7{
+    float: none;
+    padding: -1px;
+}
+#categ{
+    background-image: url("grad.jpg");
+    height: 1800px;
+    background-repeat: repeat-y;
+} 
+
+#contact{
+    position: relative;
+    top: 100%; 
+    left: 0%;
+    margin: 0%;
+    background-color: black;
+}
+#fb{
+    height: 30px;
+    width: 30px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+#gplus{
+    height: 32px;
+    width: 30px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+#ig{
+    height: 30px;
+    width: 30px;
+    padding-left: 10%; 
+    padding-right: 10%;
+}
+#gmail{
+    height: 25px;
+    width: 30px;
+    padding-left: 10%;
+    padding-right: 10%;  
+}
+    
